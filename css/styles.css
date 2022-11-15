@@ -1,0 +1,141 @@
+body {
+    margin: 30px;
+    padding: 0;
+    background-color: rgb(197, 195, 195);
+}
+  
+.container {
+    max-width: 1260px auto;
+    margin: 0 auto;
+    text-align: center;
+    
+ }
+.container-imagenes {
+    margin: 0 auto;
+    text-align: center;
+}
+.lista {
+    text-align: center;
+    font-style: italic;
+}
+.container2 {
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+}
+.container1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 8);
+    font-size: xx-large;
+
+}
+.container-footer {
+    vertical-align: auto;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text-footer-index {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    text-shadow: 100px;
+}
+.footer-index {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+.footer-ubicacion {
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+.container-quienes {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.quienes-somos {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quienes-somos1 {
+    width: 300px;
+    height: 300px;
+}
+.servicios {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.servicios1 {
+    max-width: 1100px auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.Presupuesto {
+    display: flex;
+    text-align: center;
+    width: 1200px;
+}
+.Presupuesto1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.formcontacto {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.form1 {
+    width: 300px;
+    height: 140px;
+}
+.form2 {
+    width: 300px;
+    height: 200px;
+}
+.form3 {
+    width: 300px;
+    height: 180px;
+}
+.info {
+    margin: 20px;
+    width: 1200px;
+    text-align: center;
+}
+
+.container img:hover {
+    width: 100px;
+    zoom: 200px;
+    transform: scale(1.2);
+}
+.quienes-somos img:hover {
+    height: 300px;
+    transform: scale(1.2);
+
+}
