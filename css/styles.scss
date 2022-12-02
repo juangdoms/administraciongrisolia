@@ -1,0 +1,391 @@
+body {
+  margin: 30px;
+  padding: 0;
+  background-color: rgb(197, 195, 195);
+}
+
+.logo {
+  border-radius: 10%;
+}
+
+.container-imagenes {
+  margin: 0 auto;
+  text-align: center;
+}
+.lista {
+
+  text-align: center;
+  font-style: italic;
+}
+.container2 {
+  overflow: hidden;
+  position: relative;
+  margin: 200px auto;
+}
+
+/**
+  PAGE: SERVICIOS
+*/
+.container1 {
+  background-image: url('../img/EWRWZLV7FZEM7C24TIEPFBJCP4.jpg');
+  background-position: center top;
+  background-size: cover;
+  height: 70vh;
+  margin: 0 15px;
+
+  .texto-servicios {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 8);
+    font-size: xx-large;
+    text-align: center;
+  }
+}
+
+.container-contacto {
+  background-image: url('../img/mujer-en-callcenter-usando-B2Chat.webp');
+  background-position: center top;
+  background-size: cover;
+  height: 70vh;
+  margin: 0 15px;
+
+  .texto-contacto {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 8);
+    font-size: xx-large;
+    text-align: center;
+  }
+}
+
+/**
+  HERO SECTION
+*/
+.container-1 {
+  background-image: url('../img/centro-porteno-ciudad-buenos-aires-obeliscojpg.webp');
+  background-position: center top;
+  background-size: cover;
+  height: 90vh;
+  margin: 0 15px;
+
+  .texto-centrado {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 8);
+    font-size: xx-large;
+    text-align: center;
+  }
+}
+
+/**
+  FOOTER
+*/
+.footer-main {
+  margin-top: 20px;
+}
+
+.container-footer {
+  vertical-align: auto;
+  padding-bottom: 50px;
+  margin: 0 15px;
+  height: 200px;
+  background-color: rgb(73, 73, 73);
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+
+  .text-footer-index {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    text-shadow: 100px;
+    padding-top: 10px;
+  }
+  
+  .footer-index {
+    width: 500px;
+    height: 160px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .footer-ubicacion {
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0;
+  }  
+  
+  .footer-text {
+    font-size: 13px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 90%;
+    padding-left: 10px;
+    
+  }
+}
+
+.title {
+  font-size: 20px;
+  }
+
+/** 
+PAGE: CONTACTO
+*/
+.container-quienes {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.quienes-somos {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.quienes-somos1 {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+/**
+  PAGE: QUIENES SOMOS
+*/
+.container-quien-somos {
+  background-image: url('../img/31283453_1743877639010174_4836155255722868736_n.jpg');
+  background-position: center top;
+  background-size: cover;
+  height: 90vh;
+  margin: 0 15px;
+
+  .texto-quienes-somos {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 8);
+    font-size: xx-large;
+    text-align: center;
+  }
+}
+
+.grid {
+  grid-template-rows: auto;
+  margin: 20px;
+  grid-template-columns: 50% 50%;
+  display: grid;
+
+  .servicios {
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .servicios1 {
+    text-align: center;
+
+    .texto-desplegable {
+      display: none;
+      margin: 10px;
+      height: auto;
+      width: auto;
+      position: relative;
+    }
+  }
+}
+
+/**
+  PAGE: INFO
+*/
+.container-info {
+  background-image: url('../img/Data-2000x1000.jpg');
+  background-position: center top;
+  background-size: cover;
+  height: 80vh;
+  margin: 0 15px;
+
+  .texto-info {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 8);
+    font-size: xx-large;
+    text-align: center;
+  }
+}
+  
+
+
+
+
+@keyframes mover {
+  0% {
+      transform: translate(0,0);
+  }
+  10% {
+      transform: translate(100px,0);
+  }
+}
+
+.Presupuesto {
+  display: flex;
+  text-align: center;
+  width: 1200px;
+}
+
+.Presupuesto1 {
+margin: 20px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.formcontacto {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .form1, 
+  .form2, 
+  .form3 {
+    width: 300px;
+  }
+}
+
+.info {
+  margin: 20px;
+  width: auto;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+
+  .texto-desplegable {
+    display: none;
+    margin: 10px;
+    height: auto;
+    width: auto;
+    position: relative;
+  }
+}
+
+.navbar-brand img:hover {
+  width: 95px;
+  zoom: 200px;
+  transform: scale(1.1);
+}
+.quienes-somos img:hover {
+  height: 300px;
+  transform: scale(1.2);
+
+}
+
+
+
+.desplegable:hover .texto-desplegable {
+  display: block;
+}
+.info3:hover .texto-desplegable { 
+  display: block; 
+
+}
+
+
+/**
+MEDIA QUERIES
+**/
+
+@media (max-width: 767.98px) { 
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin: 0 15px;
+  vertical-align: middle;
+  width: auto;
+}
+
+.footer-index {
+  width: auto;
+}
+}
+
+@media (max-width: 700px) { 
+.texto-centrado {
+  font-size: 20px;
+}
+
+.footer-ubicacion {
+  margin-top: 60px;
+}
+}
+
+@media (max-width: 00px) { 
+.texto-centrado {
+  font-size: 20px;
+}
+}
+
+
+/* CONTACTO */
+@media (max-width: 767.98px) { 
+.formcontacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form2, .form3 {
+  margin-top: 20px;
+}
+
+.Presupuesto1 {
+margin: 20px;
+}
+}
+
+/* Quiene Somos */
+
+@media (max-width: 1100px) {
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.servicios img {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-name: mover;
+  animation-duration: 0s;
+  animation-iteration-count: 0s; 
+}
+
+@keyframes mover {
+  0% {
+      transform: translate(0,0);
+  }
+  10% {
+      transform: translate(0px,0);
+  }
+}
+
+}
