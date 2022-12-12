@@ -1,7 +1,7 @@
 body {
+  background-color: #c5c3c3 !important;
   margin: 30px;
   padding: 0;
-  background-color: rgb(197, 195, 195);
 }
 
 .logo {
@@ -100,6 +100,8 @@ body {
   align-items: center;
 }
 .container-footer .text-footer-index {
+  text-shadow: 0 0 8px #000008;
+  color: white;
   width: 300px;
   height: 150px;
   text-align: center;
@@ -107,6 +109,8 @@ body {
   padding-top: 10px;
 }
 .container-footer .footer-index {
+  text-shadow: 0 0 8px #000008;
+  color: white;
   width: 500px;
   height: 160px;
   text-align: center;
