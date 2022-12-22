@@ -40,7 +40,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 8px rgb(0, 0, 8);
-  font-size: xx-large;
+  font-size: xxx-large;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 8px rgb(0, 0, 8);
-  font-size: xx-large;
+  font-size: xxx-large;
   text-align: center;
 }
 
@@ -79,6 +79,7 @@ body {
   text-shadow: 0 0 8px rgb(0, 0, 8);
   font-size: xx-large;
   text-align: center;
+  margin: 10px;
 }
 
 /**
@@ -176,7 +177,7 @@ PAGE: CONTACTO
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 8px rgb(0, 0, 8);
-  font-size: xx-large;
+  font-size: xxx-large;
   text-align: center;
 }
 
@@ -188,8 +189,8 @@ PAGE: CONTACTO
 }
 .grid .servicios {
   animation-name: mover;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 .grid .servicios1 {
   text-align: center;
@@ -206,7 +207,7 @@ PAGE: CONTACTO
   PAGE: INFO
 */
 .container-info {
-  background-image: url("../img/Data-2000x1000.jpg");
+  background-image: url("../img/sistemas-de-informacion-que-son.jpg");
   background-position: center top;
   background-size: cover;
   height: 80vh;
@@ -218,7 +219,7 @@ PAGE: CONTACTO
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 8px rgb(0, 0, 8);
-  font-size: xx-large;
+  font-size: xxx-large;
   text-align: center;
 }
 
@@ -305,19 +306,18 @@ MEDIA QUERIES
   }
   .footer-index {
     width: auto;
+    display: contents;
+  }
+  .footer-index .footer-text {
+    font-size: 10px;
   }
 }
 @media (max-width: 700px) {
-  .texto-centrado {
-    font-size: 20px;
+  .container-1 .texto-centrado {
+    font-size: 15px;
   }
   .footer-ubicacion {
     margin-top: 60px;
-  }
-}
-@media (max-width: 0px) {
-  .texto-centrado {
-    font-size: 20px;
   }
 }
 /* CONTACTO */

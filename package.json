@@ -1,7 +1,7 @@
 {
   "name": "vsc-copy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Implementacion sass\r variables\r nesting\r package.json\r incorporacion SEO (titulos, keywords,meta descripcion)",
   "main": "index.js",
   "scripts": {
     "start": "sass --watch css/styles.scss css/styles.css"
@@ -19,5 +19,6 @@
   "dependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
-  }
+  },
+  "devDependencies": {}
 }
