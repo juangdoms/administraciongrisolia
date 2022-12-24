@@ -358,6 +358,9 @@ MEDIA QUERIES
       transform: translate(0px, 0);
     }
   }
+  .form3 .logo {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
